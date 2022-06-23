@@ -1,4 +1,4 @@
-export default function Teste(){
+export function Teste(){
 
     return (
  
@@ -9,6 +9,28 @@ export default function Teste(){
             Viva Caico!
  
           </h2>
+ 
+       </div>
+ 
+    )
+ 
+ }
+export function Teste2(){
+    return (
+        <div>
+           <p> Viva Jucutu!</p>
+       </div>
+       )
+}
+export default function Principal(){
+
+    return (
+ 
+       <div>
+
+          <Teste/>
+          <hr></hr>
+          <Teste2/>
  
        </div>
  
